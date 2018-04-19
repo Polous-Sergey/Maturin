@@ -8,6 +8,7 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { FoterComponent } from './foter/foter.component';
 import { HeaderSearchMenuComponent } from './main-content/header-search-menu/header-search-menu.component';
 import { HeaderMainMenuComponent } from './main-content/header-main-menu/header-main-menu.component';
+import { CarouselTopComponent } from './main-content/carousel-top/carousel-top.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HeaderMainMenuComponent } from './main-content/header-main-menu/header-
         MainContentComponent,
         FoterComponent,
         HeaderSearchMenuComponent,
-        HeaderMainMenuComponent
+        HeaderMainMenuComponent,
+        CarouselTopComponent
     ],
     imports: [
         BrowserModule
